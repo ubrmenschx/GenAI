@@ -1,0 +1,14 @@
+1. Email subject -> Email Body -> Spam/Not-Spam
+Choosing one over spam and non-spam is based on the text or content of the mail, but that text will be in the English language, so it is important for us to make the system understand English or any other language, and for that, we use NLP.
+We convert all text into meaningful vectors so that the system can understand the text and then make a decision based on that text.
+
+2. Bottom-Up Approach to learn NLP
+Step 0 - Learn Python
+Step 1 - Text Preprocessing: via techniques like Tokenization, Lemmatization, Stopwords, Stemming --- main focus on cleaning the input
+Step 2 - Text Preprocessing: BOW, TF-IDF, Unigram, Bigram --- main focus is to convert input text into vectors
+Step 3 - Text Preprocessing: Word2Vec, AvgWord2Vec --- main focus is to convert input text into vectors (more optimized)
+Step 4 - Neural Networks: RNN, LSTM RNN, GRU RNN
+Step 5 - Text Preprocessing: via Word Embedding
+Step 6 - Learn about Transformers
+Step 7 - Learn Bert 
+
